@@ -1,3 +1,3 @@
-# DAM1-Programacio-CodiFont
+# DAM
 
-Exercicis de programació
+Exercicis
