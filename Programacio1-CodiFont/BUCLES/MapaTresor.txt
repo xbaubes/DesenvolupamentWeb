@@ -1,0 +1,4 @@
+Fem un mapa del tresor.
+Dibuixa una quadrícula de la mida indicada per l’usuari, limita els marges amb asteriscos.
+Demana una posició (x,y) i dibuixa-hi una marca. A les demés posicions dibuixa-hi un punt.
+Valida les dades introduïdes per l'usuari.
