@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<cotxes>
+        <cotxe matricula="E-0198-LYX">
+                <combustible>diesel</combustible>
+                <canviManual>false</canviManual>
+                <cv>170</cv>
+                <companyia>
+                        <marca>opel</marca>
+                        <model>insignia</model>
+                </companyia>
+                <kilometres/>
+        </cotxe>
+        <cotxe matricula="E-5213-DWL">
+                <combustible>gasolina</combustible>
+                <canviManual>true</canviManual>
+                <cv>140</cv>
+                <companyia>
+                        <marca>jeep</marca>
+                        <model>wrangler</model>
+                </companyia>
+                <kilometres>70000</kilometres>
+        </cotxe>
+</cotxes>
