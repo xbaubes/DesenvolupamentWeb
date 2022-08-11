@@ -1,0 +1,31 @@
+/*   author : Xavier Baubes Parramon   <xbaubes@xtec.cat>   */
+
+/* Removed padding and margin */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Font and format*/
+body {
+	font-family: "Lucida Grande", "Lucida Sans", "Trebuchet MS", Tahoma, Verdana, sans-serif;
+	font-size: 0.7em;
+	margin: 20px 0px 20px 10px;
+}
+
+/* Main content */
+h2{
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.box{
+	background: #f95959;
+	border: dashed #233142 1px;
+	width: 150px;
+	height: 100px;
+}
+.box span{
+	color: white;
+}
+
+/* Work in progress ... */
