@@ -1,3 +1,3 @@
 # DAM
 
-Exercicis
+Teoria i exercicis
