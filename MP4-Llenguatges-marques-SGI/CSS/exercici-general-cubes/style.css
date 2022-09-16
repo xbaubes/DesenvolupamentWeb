@@ -1,0 +1,30 @@
+/*   author : Xavier Baubes Parramon   <xbaubes@xtec.cat>   */
+
+/* selecciona el primer div fill de mainDiv*/
+#mainDiv div:nth-child(1)
+{
+	background-color: orange;
+	width: 200px;
+	height: 50px;
+}
+
+#mainDiv div:nth-child(2)
+{
+	background-color: red;
+	width: 200px;
+	height: 50px;
+}
+
+#mainDiv div:nth-child(3)
+{
+	background-color: yellow;
+	width: 200px;
+	height: 50px;
+}
+
+#mainDiv div:nth-child(4)
+{
+	background-color: green;
+	width: 200px;
+	height: 50px;
+}
