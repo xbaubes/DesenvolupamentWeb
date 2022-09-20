@@ -1,5 +1,11 @@
 /*   author : Xavier Baubes Parramon   <xbaubes@xtec.cat>   */
 
+/* el contingut esta centrat i ocupa un percentatge de l amplada total del body */
+body {
+	width: 85%;
+	margin: 0 auto;
+}
+
 @media screen and (min-width: 1200px) {
 
 }
