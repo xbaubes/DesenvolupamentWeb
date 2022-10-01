@@ -1,0 +1,18 @@
+/*   author : Xavier Baubes Parramon   <xbaubes@xtec.cat>   */
+
+@font-face {
+    font-family: SouthParkFont;
+    src: url(southpark.ttf);
+}
+
+* {
+    font-family: SouthParkFont;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+html {
+    background: LightSteelBlue;
+}
+
+/* work in progress ... */
