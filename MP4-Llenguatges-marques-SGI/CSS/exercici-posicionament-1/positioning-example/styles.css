@@ -1,0 +1,66 @@
+/*** AUTHORS ***
+     https://www.w3schools.com/ & Xavier Baubes Parramon
+***/
+
+body {
+    height: 1200px;
+}
+
+/* POSITION */
+div#position div {
+    border: 3px solid #73AD21;
+    background-color:palegreen;
+}
+div#position div.static {
+    position: static;
+
+}
+div#position div.fixed {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 300px;
+}
+div#position div.relative {
+    position: relative;
+    left: 30px;
+    width: 400px;
+    height: 200px;
+}
+div#position div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 200px;
+    height: 100px;
+}
+div#position div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+/* DISPLAY */
+p {
+    color: red;
+    width: 200px;
+    text-align:center;
+}
+p.none {
+    display: none;
+}
+p.inline {
+    display: inline;
+}
+p.block {
+    display: block;
+}
+p.inline-block {
+    display: inline-block;
+}
+
+/* FLOAT */
+div.float {
+    float: right;
+}
