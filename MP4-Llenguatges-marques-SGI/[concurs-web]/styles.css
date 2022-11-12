@@ -1,0 +1,41 @@
+html {
+
+    background-color: #9e6949;
+}
+
+body {
+    background: linear-gradient(0deg, #9e6949 0%, #66381b 50%, #2d1709 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+article.container-fluid header {
+    color: #EC9704;
+    font-size: 2rem;
+    text-align: center;
+}
+
+article.container h3.titol {
+    padding: 0px;
+    color: #bd811a;
+}
+
+article.container div.grup {
+    border: 1px #583E26 solid;
+    padding: 1rem;
+    background-color: #A78B71;
+    font-weight: bold;
+}
+
+article.container a {
+    text-decoration: none;
+    color: #2d1709;
+}
+
+footer .row .col span {
+    margin: 4rem 0;
+    float: right;
+    font-weight: bold;
+    color: #2d1709;
+    font-size: 1.2rem;
+}
