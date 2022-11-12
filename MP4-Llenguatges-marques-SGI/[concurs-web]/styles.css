@@ -9,14 +9,20 @@ body {
     background-repeat: no-repeat;
 }
 
-article.container-fluid header {
+article.container header {
     color: #EC9704;
     font-size: 2rem;
     text-align: center;
 }
 
-article.container-fluid header span {
-    vertical-align: sub;
+@media (max-width: 992px) {
+	article.container header span {
+		vertical-align: sub;
+	}
+	article.container header span::after {
+		content: "\a";
+		white-space: pre;
+	}
 }
 
 article.container h3.titol {
