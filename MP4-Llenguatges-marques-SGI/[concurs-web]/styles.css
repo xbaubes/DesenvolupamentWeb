@@ -15,6 +15,10 @@ article.container-fluid header {
     text-align: center;
 }
 
+article.container-fluid header span {
+    vertical-align: sub;
+}
+
 article.container h3.titol {
     padding: 0px;
     color: #bd811a;
