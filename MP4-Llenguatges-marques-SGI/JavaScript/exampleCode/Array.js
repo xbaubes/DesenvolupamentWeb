@@ -1,3 +1,5 @@
+"use strict";
+
 const cars = new Array("Saab", "Volvo", "BMW"); //new Array()
 
 const fullCars = ["Saab", "Volvo", "BMW"]; //[]

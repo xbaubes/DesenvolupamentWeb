@@ -1,3 +1,5 @@
+"use strict";
+
 let valor1 = 5, valor2 = 4;
 
 function multiplicacio1 (v1, v2) {

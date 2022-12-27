@@ -1,3 +1,5 @@
+"use strict";
+
 /* VAR */
 
 var MyVarNumber = 123;
