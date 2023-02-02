@@ -1,0 +1,10 @@
+#select {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    background-color: #F5BCA9;
+}
+
+.divs {
+    display: none;
+    color: blue;
+}
