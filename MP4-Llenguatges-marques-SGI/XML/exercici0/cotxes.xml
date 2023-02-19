@@ -13,7 +13,6 @@
         <cotxe matricula="E-5213-DWL">
                 <combustible>gasolina</combustible>
                 <canviManual>true</canviManual>
-                <cv>140</cv>
                 <companyia>
                         <marca>jeep</marca>
                         <model>wrangler</model>
