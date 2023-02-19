@@ -3,19 +3,21 @@
  * @author Xavier Baubes Parramon <xbaubes@xtec.cat>
  */
 
-var xhr = new XMLHttpRequest();
-xhr.onreadystatechange = function()
-{
-	if (this.readyState == 4 && this.status == 200) {
-		ops(this);
-	}
-}
-xhr.open("GET", "cotxes.xml", true);
-xhr.send();
+let div = document.getElementById("demo") //element HTML on afegirem la informacio de l XML
 
-function ops(xhr)
+function loadXMLDoc(filename)
 {
-	var div = document.getElementById("demo") //element HTML on afegirem la informacio de l XML
+	let xhttp = new XMLHttpRequest();
+	xhttp.open("GET", filename, false); //crida sincrona
+	xhttp.send();
+	return xhttp;
+}
+
+let res = loadXMLDoc("cotxes.xml");
+ops(res,div)
+
+function ops(xhr,div)
+{
 	var xmlResponse = xhr.responseXML
 	console.log("xmlResponse:")
 	console.log(xmlResponse)
@@ -33,6 +35,8 @@ function ops(xhr)
 			{
 				//console.log("allElemTag[" + i + "]:")
 				//console.log(allElemTag[i])
+				//if(allElemTag[i].attributes[0] != undefined)
+				//{
 				div.innerHTML += allElemTag[i].attributes[0].nodeValue //registrem atribut
 				div.innerHTML += "<br><br>"
 				var fills = allElemTag[i].children
@@ -43,6 +47,7 @@ function ops(xhr)
 					div.innerHTML += fillIt.nodeName + ": " + fillIt.textContent + "<br>"
 				}
 				div.innerHTML += "<hr>"
+				//}
 			}
 		}
 	}
