@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKS</title>
+	<script type="text/javascript" src="xml.js" defer></script>
+	<link rel="stylesheet" href="xml.css">
+</head>
+<body>
+	<div id="interface">
+		<div>
+			<label for="ops">Selecciona per característica de cerca</label>
+			<select name="ops" id="ops">
+			  <option value="id">ID</option>
+			  <option value="title">Títol</option>
+			  <option value="author">Autor</option>
+			  <option value="genre">Gènere</option>
+			</select>
+		</div>
+		<div id="divIntro">
+			<label for="intro">Selecciona cadena a cercar</label>
+			<input type="text" id="intro" name="intro">
+		</div>
+		<div>
+			<button type="button" id="clickCerca">Click Me!</button>
+		</div>
+		<div id="showResults">
+		</div>
+	</div>
+</body>
+</html>
