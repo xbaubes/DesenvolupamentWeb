@@ -1,0 +1,15 @@
+#galeria {
+    display: flex;
+    justify-content: center;
+}
+
+#galeria img:hover {
+    opacity: 0.7;
+    outline: 3px solid lightsalmon;
+    cursor: pointer;
+}
+
+#imatge-gran img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
