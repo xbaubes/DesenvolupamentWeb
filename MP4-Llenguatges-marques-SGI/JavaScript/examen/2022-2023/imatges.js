@@ -31,3 +31,9 @@ for (let miniatura of miniatures)
             //imatgeGran.appendChild(imatge); // Afegim l element imatge a l element 'imatge-gran'
     });
 }
+	//forma alternativa:
+	/*
+	miniatures.forEach(function(miniatura) {
+		// ...
+	});
+	*/
