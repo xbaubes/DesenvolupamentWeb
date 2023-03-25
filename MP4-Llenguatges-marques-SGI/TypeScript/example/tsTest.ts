@@ -15,6 +15,15 @@ function sumarIMostrar(a: number, b: number) {
 let resultat: number = sumar(2, 3); // "resultat" és 5
 sumarIMostrar(2, 3); // mostra 5 per consola
 
+// Per elements HTML
+let ele = document.querySelector("*");
+
+function elementHTML(d:Element|null){ // pot ser un element HTML o null
+  console.log(d);
+}
+
+elementHTML(ele);
+
 /* ----------- */
 
 // Declaració d'un array de nombres enters
