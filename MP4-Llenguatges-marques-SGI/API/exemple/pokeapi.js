@@ -68,17 +68,17 @@ Promise.all(promises) //valida que totes les promeses de l array es validin corr
 /* control with await/async */
 
 async function fetchPokemon() { //declarem la funcio asincrona per poder usar await, awiat fa que les funcions esperin fins que s obte el resultat
-    let pokemons = [];
+    let pokemonList = [];
     for (let i = firstPokemon; i <= numPokemon; i++) {
         const pokeEndpoint = `${urlBase}${i}`;
         const response = await fetch(pokeEndpoint);
         const pokemon = await response.json();
-        pokemons.push(pokemon);
+        pokemonList.push(pokemon);
     }
     
-    pokemons.sort((a, b) => a.id - b.id);
+    pokemonList.sort((a, b) => a.id - b.id);
   
-    for (const poke of pokemons) {
+    for (const poke of pokemonList) {
       showPokemon(poke, asyncOrderedA);
     }
 }
