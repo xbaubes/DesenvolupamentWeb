@@ -11,17 +11,21 @@ function showPokemon(pokemon,div)
     console.log(pokemon.name);
     console.log(pokemon);
 
+    let a = document.createElement('a');
+    a.href = `details.html?id=${pokemon.id}`;
+
     let img = document.createElement('img');
     img.src = pokemon.sprites.front_default;
     img.alt = pokemon.name;
-    
+    a.appendChild(img);
+
     let text = document.createElement('p');
     let pokeName = pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1);
     text.textContent = pokeName;
     
     let newdiv = document.createElement('div');
     newdiv.classList.add('image-container');
-    newdiv.appendChild(img);
+    newdiv.appendChild(a);
     newdiv.appendChild(text);
     div.appendChild(newdiv);
 }
@@ -82,7 +86,7 @@ async function fetchPokemon() { //declarem la funcio asincrona per poder usar aw
       showPokemon(poke, asyncOrderedA);
     }
 }
-  
+
 fetchPokemon()
     .catch(error => {
         console.error("Error fetching pokemon:", error);

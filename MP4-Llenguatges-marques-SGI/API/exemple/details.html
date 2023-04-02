@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokeapi details</title>
+</head>
+<body>
+    <script>
+        const searchParams = new URLSearchParams(window.location.search);
+        const id = searchParams.get('id');
+        console.log(id);
+
+        fetch("https://pokeapi.co/api/v2/pokemon/" + id)
+        .then(response => response.json())
+        .then((pokemon) => {
+            console.log(pokemon);
+            document.write("nom: " + pokemon.name + "<br>" + "alçada: " + pokemon.height/10 + " m.<br>" + "pes: " + pokemon.weight/10 + " kg.");
+        })
+        .catch((error) => {
+            console.error("Error fetching pokemon:", error);
+        });
+    </script>
+</body>
+</html>
