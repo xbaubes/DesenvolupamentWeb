@@ -25,7 +25,7 @@ En aquest repositori hi trobaràs els conceptes necessaris per aprendre desenvol
 ### Material adequat pels següents cicles formatius i mòduls professionals:
 
   - **Sistemes Microinformàtics i Xarxes** (SMX)  
-     - MP8. Aplicacions web [*Frontend*](#frontend)
+     - MP8. Aplicacions web [*Frontend*](#frontend) *(HTML, CSS, Bootstrap, JavaScript)*
   - **Administració de Sistemes Informàtics en Xarxa** (ASIX)  
      - MP4. Llenguatge de marques [*Frontend*](#frontend)
   - **Desenvolupament d'Aplicacions Web** (DAW)  
