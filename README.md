@@ -9,7 +9,7 @@ En aquesta pàgina web hi trobaràs enllaçat el material de la part client (o f
 
 ---
 
-### Ordre recomanat per impartir el material:
+### Ordre recomanat per impartir el material
 
   - **Frontend** <a name="frontend"></a>
     - **HTML :** Llenguatge de marcatge utilitzat per a crear i estructurar el contingut d'una pàgina web. A través d'etiquetes i elements, permet definir diversos elements d'una pàgina web, com ara text, imatges, enllaços, formularis, etc.
@@ -24,7 +24,7 @@ En aquesta pàgina web hi trobaràs enllaçat el material de la part client (o f
 
 ---
 
-### Material adequat pels següents cicles formatius i mòduls professionals:
+### Material adequat pels següents cicles formatius i mòduls professionals
 
   - **Sistemes Microinformàtics i Xarxes** (SMX)  
      - MP8. Aplicacions web [*Frontend*](#frontend) *(HTML, CSS, Bootstrap, JavaScript)*
