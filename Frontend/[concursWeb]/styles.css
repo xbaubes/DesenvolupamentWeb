@@ -1,0 +1,77 @@
+html {
+    background-color: #9e6949;
+}
+
+body {
+    background: linear-gradient(0deg, #9e6949 0%, #66381b 50%, #2d1709 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header.container section {
+    color: #EC9704;
+    font-size: 2rem;
+    text-align: center;
+}
+
+header.container .imglogo {
+	width: 25%;
+}
+@media screen and (max-width: 991px) {
+	header.container .imglogo {
+		width: 30%;
+	}
+}
+
+@media (max-width: 992px) {
+    header.container section span {
+        vertical-align: sub;
+    }
+    header.container section span::after {
+        content: "\a";
+        white-space: pre;
+    }
+}
+
+article.container h3.titol {
+    padding: 0px;
+    color: #bd811a;
+}
+article.container h3.titol .modalDiv {
+    display: inline-block;
+}
+article.container h3.titol .modalDiv span{
+    vertical-align: -2px;
+}
+article.container h3.titol .modalDiv .modal-dialog{
+    font-size: 1.1rem;
+    color: #332600;
+}
+
+article.container a.grup , article.container div.disabled {
+    border: 1px #583E26 solid;
+    padding: 1rem;
+    background-color: #A78B71;
+    font-weight: bold;
+}
+
+article.container div.disabled {
+	opacity: 0.5;
+}
+
+article.container a.grup:hover {
+    border: 1px wheat solid;
+}
+
+article.container a {
+    text-decoration: none;
+    color: #2d1709;
+}
+
+footer .row .col span {
+    margin: 4rem 0;
+    float: right;
+    font-weight: bold;
+    color: #2d1709;
+    font-size: 1.2rem;
+}
