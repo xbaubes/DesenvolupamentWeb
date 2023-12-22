@@ -5,5 +5,5 @@
     - Elements HTML principals
   - **HTML-list-form-table.pdf**
     - Llistes, taules i formularis en HTML
-    - CSS bàsic
+    - Afegir fitxer CSS
 ---
