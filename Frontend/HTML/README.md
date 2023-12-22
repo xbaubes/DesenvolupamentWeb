@@ -1,7 +1,9 @@
 ### Ordre recomanat per impartir el material
 
   - **HTML-basicTags.pdf**
-    - HTML
+    - Estructura HTML
+	- Elements HTML principals
   - **HTML-list-form-table.pdf**
-    - HTML + CSS
+    - Llistes, taules i formularis en HTML
+	- CSS bàsic
 ---
