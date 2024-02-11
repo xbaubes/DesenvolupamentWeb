@@ -1,8 +1,8 @@
 ### Ordre recomanat per impartir el material
 
   - **CSS-General.pdf**
-    - Selectors
-    - Propietats bàsiques: height, width, border, margin, padding, background-color, etc.
+    - Selectors principals
+    - Propietats bàsiques: height, width, border, margin, padding, background-color, etc
     - Unitats de mesura
   - **CSS-Decoracio.pdf**
     - ???
