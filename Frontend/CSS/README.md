@@ -6,7 +6,7 @@
     - Unitats de mesura
   - **CSS-Decoracio.pdf**
     - Pseudo-class
-    - Lists i tables
+    - Propietats CSS de Lists i tables
   - **CSS-Custom-Form.pdf**
   - **CSS-Posicionament.pdf**
   - **CSS-Adaptive-Design.pdf**
