@@ -1,0 +1,11 @@
+#div1 {
+	background-color: red;
+	width: 30%;
+	display:inline-block;
+}
+
+#div2 {
+	background-color: blue;
+	width: 30%; 
+	display:inline-block;
+}

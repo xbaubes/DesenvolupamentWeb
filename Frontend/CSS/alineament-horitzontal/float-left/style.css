@@ -1,0 +1,16 @@
+#s {
+	float: left;
+	width: 100%;
+}
+
+#div1 {
+	background-color: red;
+	width: 30%;
+	float: left;
+}
+
+#div2 {
+	background-color: blue;
+	width: 30%; 
+	float: left;
+}
