@@ -26,13 +26,13 @@ En aquesta pàgina web hi trobaràs enllaçat el material de la part client (o f
 
 ### Material adequat pels següents cicles formatius i mòduls professionals
 
-  - **Sistemes Microinformàtics i Xarxes** (SMX)  
+  - **Sistemes Microinformàtics i Xarxes** (CFGM SMX)  
      - MP8. Aplicacions web [*Frontend*](#frontend) *(HTML, CSS, Bootstrap, JavaScript)*
-  - **Administració de Sistemes Informàtics en Xarxa** (ASIX)  
+  - **Administració de Sistemes Informàtics en Xarxa** (CFGS ASIX)  
      - MP4. Llenguatge de marques [*Frontend*](#frontend)
-  - **Desenvolupament d'Aplicacions Web** (DAW)  
+  - **Desenvolupament d'Aplicacions Web** (CFGS DAW)  
      - MP4. Llenguatges de marques i sistemes de gestió d'informació [*Frontend*](#frontend)
      - MP6. Desenvolupament web en entorn client [*Frontend*](#frontend)
-  - **Desenvolupament d'Aplicacions Multiplataforma** (DAM)  
+  - **Desenvolupament d'Aplicacions Multiplataforma** (CFGS DAM)  
      - MP4. Llenguatges de marques i sistemes de gestió d'informació [*Frontend*](#frontend)
      - MP7. Desenvolupament d'interfícies [*Frontend*](#frontend)
