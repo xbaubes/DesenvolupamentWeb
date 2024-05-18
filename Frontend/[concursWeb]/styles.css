@@ -1,9 +1,16 @@
+:root {
+	--color-primari: #9e6949;
+	--color-degradat: #2d1709;
+	--color-habilitat: wheat;
+	--color-deshabilitat: #583E26;
+}
+
 html {
-    background-color: #9e6949;
+    background-color: var(--color-primari);
 }
 
 body {
-    background: linear-gradient(0deg, #9e6949 0%, #66381b 50%, #2d1709 100%);
+    background: linear-gradient(0deg, var(--color-primari) 0%, #66381b 50%, var(--color-degradat) 100%);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -48,30 +55,33 @@ article.container h3.titol .modalDiv .modal-dialog{
     color: #332600;
 }
 
-article.container a.grup , article.container div.disabled {
-    border: 1px #583E26 solid;
+article.container a.grup , article.container div.disabled , article.container a.disabled {
+    border: 1px var(--color-deshabilitat) solid;
     padding: 1rem;
     background-color: #A78B71;
     font-weight: bold;
 }
 
-article.container div.disabled {
+article.container div.disabled , article.container a.disabled {
 	opacity: 0.5;
 }
 
 article.container a.grup:hover {
-    border: 1px wheat solid;
+    border: 1px var(--color-habilitat) solid;
+}
+article.container a.grup.disabled:hover {
+    border: 1px var(--color-deshabilitat) solid;
 }
 
 article.container a {
     text-decoration: none;
-    color: #2d1709;
+    color: var(--color-degradat);
 }
 
 footer .row .col span {
     margin: 4rem 0;
     float: right;
     font-weight: bold;
-    color: #2d1709;
+    color: var(--color-degradat);
     font-size: 1.2rem;
 }
