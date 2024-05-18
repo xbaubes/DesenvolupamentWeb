@@ -1,0 +1,34 @@
+Rutes relatives i rutes absolutes
+
+
+
+En HTML, hi ha diversos tipus de rutes (o paths) que es poden utilitzar per especificar la ubicació d'arxius o recursos.
+
+
+Rutes Relatives
+
+Les rutes relatives són especificades en relació amb la ubicació actual del fitxer HTML. Poden ser rutes relatives cap a carpeta superior (../) o cap a subcarpetes i fitxers dins de la mateixa jerarquia.
+
+Exemples d'accés als recursos
+
+Des de f1 accedim a i1 que està al mateix directori: "i1.jpg"
+
+Des de f1 accedim a i2: "c1/c3/i2.jpg"
+
+Des de f2 accedim a i1 que està dos nivells per sobre a la jerarquia: "../../i1.jpg"
+
+
+Rutes Absolutes
+
+Les rutes absolutes proporcionen la ubicació completa del recurs des de l'arrel del sistema de fitxers o la URL completa. Són útils quan vols especificar la ruta amb total certesa, independentment de la ubicació del fitxer HTML.
+
+Exemples d'accés als recursos
+
+Accedim a i1: "/i1.jpg"
+
+Accedim a i2: "/c1/c3/i2.jpg"
+
+
+Tens un exemple del funcionament de les rutes relatives on, des dels fitxers f1 i f2, accedim als diferents recursos del directori usant HTML.
+
+Pots descarregar-lo des del següent enllaç: [paths.rar]
