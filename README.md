@@ -23,6 +23,12 @@ En aquesta pàgina web hi trobaràs enllaçat el material de la part client (o f
       <li><strong><a href="https://github.com/xbaubes/DesenvolupamentWeb/tree/main/Frontend/API">API</a> :</strong> Conjunt de protocols i eines que permeten que diferents aplicacions informàtiques es comuniquin entre elles, permetent l'accés a funcionalitats o dades específiques d'una aplicació o servei.</li>
     </ol>
   - **Backend** <a name="backend"></a>
+    <ol type="1">
+      <li><strong><a href="https://xbaubes.github.io/modules/desenvolupaweb/xampp/xampp.html?page=XAMPP">XAMPP</a> :</strong>
+         Plataforma de desenvolupament que facilita la creació i gestió d'un servidor web local amb Apache, MySQL/MariaDB, PHP i Perl.</li>
+      <li><strong><a href="https://xbaubes.github.io/">PHP</a> :</strong>
+         PHPPPPPP</li>
+    </ol>
 
 ---
 
