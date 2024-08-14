@@ -80,15 +80,15 @@
         } else {
             $resposta = "No es realitza la compra.";
         }
-        echo $resposta . "<br><br>";
+        echo $resposta . "<br>";
 
         // Operador lògic NOT: inverteix el valor booleà
         $plou = true;
         if($plou)
-            echo "Plou.";
+            echo "<h3>Plou.</h3>";
         if(!$plou)
-            echo "No plou.";
-        echo "<br><br>";
+            echo "<h3>No plou.</h3>";
+
 
         /***** CONDICIONALS *****/
 
