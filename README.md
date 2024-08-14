@@ -26,8 +26,8 @@ En aquesta pàgina web hi trobaràs enllaçat el material de la part client (o f
     <ol type="1">
       <li><strong><a href="https://xbaubes.github.io/modules/desenvolupaweb/xampp/xampp.html?page=XAMPP">XAMPP</a> :</strong>
          Plataforma de desenvolupament que facilita la creació i gestió d'un servidor web local amb Apache, MySQL/MariaDB, PHP i Perl.</li>
-      <li><strong><a href="https://xbaubes.github.io/">PHP</a> :</strong>
-         PHPPPPPP</li>
+      <li><strong><a href="https://github.com/xbaubes/DesenvolupamentWeb/tree/main/Backend/PHP">PHP</a> :</strong>
+         PHP</li>
     </ol>
 
 ---
