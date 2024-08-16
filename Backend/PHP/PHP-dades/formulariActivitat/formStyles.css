@@ -1,0 +1,20 @@
+.error-red {
+    border: 2px solid red;
+}
+.error-message-red {
+    color: red;
+}
+
+.error-green {
+    border: 2px solid green;
+}
+.error-message-green {
+    color: green;
+}
+
+.error-blue {
+    border: 2px solid blue;
+}
+.error-message-blue {
+    color: blue;
+}

@@ -8,9 +8,9 @@
             echo "No s'han rebut dades vàlides per mètode GET.";
         }
     } else if ($_SERVER['REQUEST_METHOD'] == 'POST') { // POST
-        if (isset($_POST['nom']) && (strlen($_POST['nom']) < 3 || strlen($_POST['nom'])) &&
+        if (isset($_POST['nom']) && !empty($_POST['nom']) &&
         isset($_POST['edat']) && filter_var($_POST['edat'], FILTER_VALIDATE_INT) &&
-        filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
+        isset($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
             $nom = $_POST['nom'];
             $edat = $_POST['edat'];
             $email = $_POST['email'];
