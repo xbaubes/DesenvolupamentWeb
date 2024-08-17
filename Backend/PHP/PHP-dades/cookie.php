@@ -3,9 +3,10 @@
     // Llegir una cookie
     if (!isset($_COOKIE['nom_usuari'])) {
         // Creació d'una cookie
-        // Estableix una cookie que expira en 30 dies
         setcookie("nom_usuari", "Joan", time() + (30 * 24 * 60 * 60), "/");
-        //30 dies * 24 hores que té un dia * 60 minuts que té una hora * 60 segons que té un minut
+        // Estableix una cookie que expira en 30 dies
+        // Notació en segons: 30 dies * 24 hores que té un dia * 60 minuts que té una hora * 60 segons que té un minut
+        // Si posem 0 la cookie expira al finalitzar la sessió
 
         // La cookie no estarà disponible fins la pròxima sol.licitud HTTP
         if (isset($_COOKIE['nom_usuari'])) {
