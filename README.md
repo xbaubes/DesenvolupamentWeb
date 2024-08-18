@@ -5,7 +5,9 @@ El desenvolupament web és el procés de creació i manteniment de web sites a t
 
 En aquest repositori hi trobaràs els conceptes necessaris per aprendre desenvolupament web i activitats per practicar.
 
-En aquesta pàgina web hi trobaràs enllaçat el material de la part client (o frontend): <a href="https://sites.google.com/xtec.cat/frontend-web-tutorial" target="_blank">Frontend Web</a>
+En aquesta pàgina web hi trobaràs enllaçat el material de la part client (o frontend): <a href="https://sites.google.com/xtec.cat/frontend-web-tutorial" target="_blank">Frontend Web</a>.
+
+[Diferència entre Frontend i Backend](https://github.com/xbaubes/DesenvolupamentWeb/blob/main/Frontend-vs-Backend.pdf).
 
 ---
 
