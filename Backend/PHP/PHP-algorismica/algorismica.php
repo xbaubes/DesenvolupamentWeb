@@ -11,6 +11,7 @@
 
         /***** FUNCIONS *****/
 
+
         // Funcions predefinides
         echo date("d/m/Y H:i:s") . "<br><br>";
 
@@ -20,7 +21,24 @@
         }
         echo saludar("Joan") . "<br><br>";  // Crida la funció amb el nom "Joan"
 
+		function processarNom($callback, $nom) {
+			// Crida la funció de callback amb la variable passada
+			echo $callback($nom) . "<br><br>";
+		}
+
+        // Ara, en lloc de passar una variable, passem una funció com a callback:
+
+		// Crida a processarNom passant la funció saludar com a callback i el nom "Joan"
+		processarNom('saludar', 'Joan');
+
+        // Crida a processarNom passant una closure (funció anònima) com a callback i el nom "Joan"
+        processarNom(function($nom) {
+            return "Hola, " . $nom . "!";
+        }, 'Joan');
+
+
         /***** ARRAYS I ITERACIO *****/
+
 
         // Array indexat
         $fruites = ["Poma", "Plàtan", "Mango"];
@@ -31,7 +49,8 @@
         unset($fruites[1]); // Elimina l'element amb index 1 (Plàtan)
         // Array indexat iterat
         for ($i = 0; $i < count($fruites); $i++) {
-            echo $i+1 . " : " . $fruites[$i] . "<br>";
+            if(isset($fruites[$i]))
+                echo $i+1 . " : " . $fruites[$i] . "<br>";
         }
         foreach ($fruites as $fruita) {
             echo $fruita . "<br>";

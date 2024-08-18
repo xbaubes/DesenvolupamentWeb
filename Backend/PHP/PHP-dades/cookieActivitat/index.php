@@ -9,7 +9,7 @@
 </head>
 <body class="tema-clar">
 
-    <h1>Configura el Tema de la Pàgina</h1>
+    <h1>Configura el tema de la pàgina</h1>
     <form>
         <label>
             <input type="radio" name="tema" value="clar">
@@ -20,7 +20,7 @@
             Tema fosc
         </label>
         <br>
-        <button type="submit">Guardar Preferències</button>
+        <button type="submit">Guardar preferències</button>
     </form>
 
     <p>Actualment estàs utilitzant el tema <strong>clar</strong>.</p>
