@@ -1,3 +1,7 @@
+    <?php
+        session_start();
+    ?>
+
 <!DOCTYPE html>
 <html lang="ca">
 <head>
@@ -8,8 +12,6 @@
 <body>
 
     <?php
-        session_start();
-
         // Assignar valors a la sessió
         if (!isset($_SESSION['usuari']) && !isset($_SESSION['rol']))
         {
