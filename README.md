@@ -29,7 +29,7 @@ En aquesta pàgina web hi trobaràs enllaçat el material de la part client (o f
       <li><strong><a href="https://xbaubes.github.io/modules/desenvolupaweb/xampp/xampp.html?page=XAMPP">XAMPP</a> :</strong>
          Plataforma de desenvolupament que facilita la creació i gestió d'un servidor web local amb Apache, MySQL/MariaDB, PHP i Perl.</li>
       <li><strong><a href="https://github.com/xbaubes/DesenvolupamentWeb/tree/main/Backend/PHP">PHP</a> :</strong>
-         PHP</li>
+         Llenguatge de programació dissenyat principalment per al desenvolupament web que permet crear pàgines dinàmiques i interactives. S'integra fàcilment amb bases de dades i es pot incrustar en el codi HTML.</li>
     </ol>
 
 ---
