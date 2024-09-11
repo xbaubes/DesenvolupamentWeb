@@ -1,9 +1,9 @@
 "use strict";
 
 function simulateAsyncOperation() {
-    let success = true;
     return new Promise((resolve, reject) => {
       setTimeout(() => {
+        let success = true;
         if (success) {
           resolve('Operació exitosa'); // Si la promesa s'ha resolt correctament usem resolve, sinó usem reject
         } else {
