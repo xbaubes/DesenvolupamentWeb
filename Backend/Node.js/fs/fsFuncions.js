@@ -13,6 +13,7 @@ function manageFileOperations() {
 
         // Llegir el fitxer amb fs.readFile
         fs.readFile(filePath, 'utf8', (err, data) => { // Patró error-first: el primer paràmetre del callback és per controlar l'error, el segon és el retorn de la funció
+			// Quan la funció finalitza la tasca, invoca el callback passat per paràmetre i emplena els valors segons el resultat de la operació
             if (err) {
                 return console.error('Error reading file:', err);
             }
