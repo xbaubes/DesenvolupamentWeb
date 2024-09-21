@@ -9,9 +9,9 @@ let resultat1 = multiplicacio1(valor1,valor2);
 
 /* declaracio alternativa amb anonymous function */
 
-let multiplicacio2 = (function (v1,v2) {
+let multiplicacio2 = function (v1,v2) {
     return v1 * v2;
-});
+};
 let resultat2 = multiplicacio2(valor1,valor2);
 
 /* declaracio alternativa amb arrow function */

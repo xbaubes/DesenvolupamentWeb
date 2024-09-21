@@ -16,6 +16,32 @@ function processarUsuari(name, funcioCallback) {
 // Cridar la Funció amb el Callback: Finalment, passes la funció callback com a argument quan crides la funció que l'accepta.
 processarUsuari("Joan", saludar);
 
+// ************************************
+
+// Funció que aplica una operació sobre un número i mostra el resultat
+function aplicarOperacio(num, operacioCallback, resultatCallback) {
+    const resultat = operacioCallback(num);
+    resultatCallback(resultat);
+}
+
+// Definim algunes operacions
+function quadrat(x) {
+    return x * x;
+}
+
+function doble(x) {
+    return x * 2;
+}
+
+// Definim el callback per mostrar el resultat
+function mostrarResultat(resultat) {
+    console.log("El resultat és: " + resultat);
+}
+
+// Utilitzem la funció amb diferents operacions
+aplicarOperacio(5, quadrat, mostrarResultat); // El resultat és: 25
+aplicarOperacio(5, doble, mostrarResultat);   // El resultat és: 10
+
 // ***** Callback en asincronisme *****
 
 // Exemple amb una operació asíncrona (simulada amb setTimeout):
