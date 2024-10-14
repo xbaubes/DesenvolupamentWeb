@@ -38,7 +38,7 @@ En aquesta pàgina web hi trobaràs enllaçat el material de la part client (o f
     <strong>Node.js</strong>
     <ol type="1">
       <li><strong><a href="https://github.com/xbaubes/DesenvolupamentWeb/tree/main/Backend/Node.js">Node.js</a> :</strong>
-         Entorn d'execució JavaScript del costat del servidor que permet crear aplicacions web escalables i ràpides.</li>
+         Entorn d'execució JavaScript del costat del servidor que permet crear aplicacions web escalables i altament eficients.</li>
       <li><strong><a href="https://github.com/xbaubes/DesenvolupamentWeb/tree/main/Backend/Node.js/Express.js">Express.js</a> :</strong>
          Framework minimalista per Node.js que facilita la creació de servidors web i la gestió de rutes i sol·licituds HTTP.</li>
     </ol>
