@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecciona el teu videojoc</title>
+</head>
+<body>
+    <h1>Selecciona el teu videojoc</h1>
+    <form id="videojocForm" action="/search" method="GET">
+
+        <label for="platform">Plataforma:</label>
+        <select id="platform" name="platform">
+            <option value="">Selecciona una plataforma</option>
+            <option value="PS5">PS5</option>
+            <option value="XboxSeriesX/S">Xbox Series X/S</option>
+            <option value="NintendoSwitch">Nintendo Switch</option>
+            <option value="PS4">PS4</option>
+            <option value="XboxOne">Xbox One</option>
+            <option value="PC">PC</option>
+			<option value="Xbox360">Xbox 360</option>
+            <option value="PS3">PS3</option>
+			<option value="Xbox">Xbox</option>
+            <option value="PS2">PS2</option>
+            <option value="GameBoy">Game Boy</option>
+            <option value="Nintendo64">Nintendo 64</option>
+            <option value="SNES">Super Nintendo</option>
+            <option value="Mobile">Telèfon mòbil</option>
+            <option value="Arcade">Arcade</option>
+        </select>        
+
+        <br><br>
+
+        <label for="multiplayer">Multijugador:</label>
+        <input type="checkbox" id="multiplayer" name="multiplayer" value="true">
+        
+        <br><br>
+
+        <label for="decade">Dècada de llançament:</label>
+        <select id="decade" name="decade" required>
+            <option value="">Selecciona una dècada</option>
+            <option value="1980">1980s</option>
+            <option value="1990">1990s</option>
+            <option value="2000">2000s</option>
+            <option value="2010">2010s</option>
+            <option value="2020">2020s</option>
+        </select>
+        
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

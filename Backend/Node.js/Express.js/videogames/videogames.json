@@ -1,0 +1,221 @@
+{
+  "videogames": [
+    {
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "platform": "Nintendo Switch",
+      "releaseYear": 2017,
+      "genre": "Adventure",
+      "multiplayer": false
+    },
+    {
+      "title": "Final Fantasy XVI",
+      "platform": "PS5, PC",
+      "releaseYear": 2024,
+      "genre": "RPG",
+      "multiplayer": false
+    },
+    {
+      "title": "Super Mario Odyssey",
+      "platform": "Nintendo Switch",
+      "releaseYear": 2017,
+      "genre": "Platformer",
+      "multiplayer": false
+    },
+    {
+      "title": "The Last of Us",
+      "platform": "PS3, PS4",
+      "releaseYear": 2013,
+      "genre": "Action-adventure",
+      "multiplayer": true
+    },
+    {
+      "title": "Fortnite",
+      "platform": "PC, PS4, PS5, Xbox One, Xbox Series X/S, Nintendo Switch, Mobile",
+      "releaseYear": 2017,
+      "genre": "Battle Royale",
+      "multiplayer": true
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "platform": "PS4, Xbox One, PC",
+      "releaseYear": 2018,
+      "genre": "Action-adventure",
+      "multiplayer": true
+    },
+    {
+      "title": "Doom",
+      "platform": "PC",
+      "releaseYear": 1993,
+      "genre": "First-person shooter",
+      "multiplayer": true
+    },
+    {
+      "title": "Starfield",
+      "platform": "PC, Xbox Series X/S",
+      "releaseYear": 2024,
+      "genre": "RPG",
+      "multiplayer": false
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas",
+      "platform": "PS2, Xbox, PC",
+      "releaseYear": 2004,
+      "genre": "Action-adventure",
+      "multiplayer": false
+    },
+    {
+      "title": "Overwatch",
+      "platform": "PS4, Xbox One, PC, Nintendo Switch",
+      "releaseYear": 2016,
+      "genre": "First-person shooter",
+      "multiplayer": true
+    },
+    {
+      "title": "Cyberpunk 2077: Phantom Liberty",
+      "platform": "PS5, Xbox Series X/S, PC",
+      "releaseYear": 2024,
+      "genre": "RPG",
+      "multiplayer": false
+    },
+    {
+      "title": "Tetris",
+      "platform": "Game Boy",
+      "releaseYear": 1989,
+      "genre": "Puzzle",
+      "multiplayer": true
+    },
+    {
+      "title": "BioShock Infinite",
+      "platform": "PS3, Xbox 360, PC",
+      "releaseYear": 2013,
+      "genre": "First-person shooter",
+      "multiplayer": false
+    },
+    {
+      "title": "Half-Life 2",
+      "platform": "PC",
+      "releaseYear": 2004,
+      "genre": "First-person shooter",
+      "multiplayer": false
+    },
+    {
+      "title": "The Sims",
+      "platform": "PC",
+      "releaseYear": 2000,
+      "genre": "Simulation",
+      "multiplayer": false
+    },
+    {
+      "title": "Halo: Combat Evolved",
+      "platform": "Xbox",
+      "releaseYear": 2001,
+      "genre": "First-person shooter",
+      "multiplayer": true
+    },
+    {
+      "title": "Minecraft",
+      "platform": "PC, PS4, PS5, Xbox One, Xbox Series X/S, Nintendo Switch, Mobile",
+      "releaseYear": 2011,
+      "genre": "Sandbox",
+      "multiplayer": true
+    },
+    {
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "platform": "Nintendo 64",
+      "releaseYear": 1998,
+      "genre": "Action-adventure",
+      "multiplayer": false
+    },
+    {
+      "title": "Baldur's Gate 3",
+      "platform": "PC, PS5",
+      "releaseYear": 2023,
+      "genre": "RPG",
+      "multiplayer": true
+    },
+    {
+      "title": "Super Mario 64",
+      "platform": "Nintendo 64",
+      "releaseYear": 1996,
+      "genre": "Platformer",
+      "multiplayer": false
+    },
+    {
+      "title": "Elden Ring",
+      "platform": "PS5, Xbox Series X/S, PC",
+      "releaseYear": 2022,
+      "genre": "Action RPG",
+      "multiplayer": true
+    },
+    {
+      "title": "Bloodborne",
+      "platform": "PS4",
+      "releaseYear": 2015,
+      "genre": "Action RPG",
+      "multiplayer": true
+    },
+    {
+      "title": "Street Fighter II",
+      "platform": "Arcade, SNES",
+      "releaseYear": 1991,
+      "genre": "Fighting",
+      "multiplayer": true
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "platform": "PS4, Xbox One, PC, Switch",
+      "releaseYear": 2015,
+      "genre": "RPG",
+      "multiplayer": false
+    },
+	{
+	  "title": "Hades",
+	  "platform": "PC, Nintendo Switch, PS4, PS5, Xbox One, Xbox Series X/S",
+	  "releaseYear": 2020,
+	  "genre": "Roguelike",
+	  "multiplayer": false
+	},
+    {
+      "title": "Grand Theft Auto V",
+      "platform": "PS4, PS5, Xbox One, Xbox Series X, PC",
+      "releaseYear": 2013,
+      "genre": "Action",
+      "multiplayer": true
+    },
+    {
+      "title": "Among Us",
+      "platform": "PC, Mobile, Nintendo Switch",
+      "releaseYear": 2018,
+      "genre": "Party, Social Deduction",
+      "multiplayer": true
+    },
+    {
+      "title": "Call of Duty: Warzone",
+      "platform": "PS4, Xbox One, PC",
+      "releaseYear": 2020,
+      "genre": "First-Person Shooter",
+      "multiplayer": true
+    },
+    {
+      "title": "Hollow Knight",
+      "platform": "PC, Nintendo Switch, PS4, Xbox One",
+      "releaseYear": 2017,
+      "genre": "Metroidvania",
+      "multiplayer": false
+    },
+    {
+      "title": "Final Fantasy VII",
+      "platform": "PlayStation",
+      "releaseYear": 1997,
+      "genre": "RPG",
+      "multiplayer": false
+    },
+    {
+      "title": "Animal Crossing: New Horizons",
+      "platform": "Nintendo Switch",
+      "releaseYear": 2020,
+      "genre": "Simulation",
+      "multiplayer": true
+    }
+  ]
+}
