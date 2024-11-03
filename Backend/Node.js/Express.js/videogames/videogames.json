@@ -168,16 +168,16 @@
       "genre": "RPG",
       "multiplayer": false
     },
-	{
-	  "title": "Hades",
-	  "platform": "PC, Nintendo Switch, PS4, PS5, Xbox One, Xbox Series X/S",
-	  "releaseYear": 2020,
-	  "genre": "Roguelike",
-	  "multiplayer": false
-	},
+    {
+      "title": "Hades",
+      "platform": "PC, Nintendo Switch, PS4, PS5, Xbox One, Xbox Series X/S",
+      "releaseYear": 2020,
+      "genre": "Roguelike",
+      "multiplayer": false
+    },
     {
       "title": "Grand Theft Auto V",
-      "platform": "PS4, PS5, Xbox One, Xbox Series X, PC",
+      "platform": "PS4, PS5, Xbox One, Xbox Series X/S, PC",
       "releaseYear": 2013,
       "genre": "Action",
       "multiplayer": true
