@@ -1,0 +1,49 @@
+{
+    "createdAt": "2024-01-01T09:00:00Z",
+    "updatedAt": "2024-11-01T09:00:00Z",
+    "sales": [
+        {
+            "id": "874c7987-1b5a-4e3c-bd67-0f6c3dbb58e77",
+            "bookstoreId": "2f1e9f8b-a1b1-44c3-8e93-53c8e4c2b3a5",
+            "saleDate": "2024-02-15T10:30:00Z",
+            "books": [
+                {
+                    "bookId": "d1f7ee82-f42c-4a60-b557-5c12e7a1a01e",
+                    "quantity": 3
+                },
+                {
+                    "bookId": "b27e3087-43ee-4b0a-910b-bc1da3a1c74e",
+                    "quantity": 1
+                }
+            ],
+            "totalPrice": 46.51,
+            "discountPercentage": 5
+        },
+        {
+            "id": "4d689a83-5b5c-4e82-b58b-c0b5baf6e13f",
+            "bookstoreId": "2f1e9f8b-a1b1-44c3-8e93-53c8e4c2b3a5",
+            "saleDate": "2024-02-18T11:45:00Z",
+            "books": [
+                {
+                    "bookId": "b27e3087-43ee-4b0a-910b-bc1da3a1c74e",
+                    "quantity": 1
+                }
+            ],
+            "totalPrice": 15.99,
+            "discountPercentage": 0
+        },
+        {
+            "id": "5cdd4d83-6179-47ed-a88f-c7b1d5c5c08d",
+            "bookstoreId": "c5a80b8c-bf8c-4c84-b4e7-11e7a79b4a64",
+            "saleDate": "2024-03-01T14:00:00Z",
+            "books": [
+                {
+                    "bookId": "ca5e0534-ef52-4741-b3c8-e30bc3b7c1b5",
+                    "quantity": 1
+                }
+            ],
+            "totalPrice": 12.99,
+            "discountPercentage": 0
+        }
+    ]
+}

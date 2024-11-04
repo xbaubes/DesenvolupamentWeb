@@ -1,0 +1,63 @@
+{
+    "createdAt": "2024-01-01T09:00:00Z",
+    "updatedAt": "2024-11-01T08:30:00Z",
+    "bookstores": [
+        {
+            "id": "2f1e9f8b-a1b1-44c3-8e93-53c8e4c2b3a5",
+            "name": "The Book Nook",
+            "location": "101 Book St, Storytown",
+            "contact": {
+                "phone": "555-0101",
+                "email": "info@thebooknook.com"
+            },
+            "inventory": [
+                {
+                    "bookId": "d1f7ee82-f42c-4a60-b557-5c12e7a1a01e",
+                    "quantity": 25,
+                    "price": 10.99
+                },
+                {
+                    "bookId": "b27e3087-43ee-4b0a-910b-bc1da3a1c74e",
+                    "quantity": 30,
+                    "price": 15.99
+                }
+            ]
+        },
+        {
+            "id": "c5a80b8c-bf8c-4c84-b4e7-11e7a79b4a64",
+            "name": "Pages & Co.",
+            "location": "202 Page Ave, Storytown",
+            "contact": {
+                "phone": "555-0202",
+                "email": "contact@pagesandco.com"
+            },
+            "inventory": [
+                {
+                    "bookId": "ca5e0534-ef52-4741-b3c8-e30bc3b7c1b5",
+                    "quantity": 15,
+                    "price": 12.99
+                },
+                {
+                    "bookId": "b27e3087-43ee-4b0a-910b-bc1da3a1c74e",
+                    "quantity": 21,
+                    "price": 15.49
+                },
+                {
+                    "bookId": "8ef2a6b5-c79c-4c3f-b14d-5c7f759dbade",
+                    "quantity": 3,
+                    "price": 11.99
+                }
+            ]
+        },
+        {
+            "id": "d2e38b5f-7d7b-44c8-8a1b-86b17918dfb5",
+            "name": "Book Haven",
+            "location": "303 Bookworm Blvd, Storytown",
+            "contact": {
+                "phone": "555-0303",
+                "email": "support@bookhaven.com"
+            },
+            "inventory": []
+        }
+    ]
+}

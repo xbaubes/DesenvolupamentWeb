@@ -1,0 +1,56 @@
+{
+    "createdAt": "2024-01-01T09:00:00Z",
+    "updatedAt": "2024-11-01T09:00:00Z",
+    "books": [
+        {
+            "id": "d1f7ee82-f42c-4a60-b557-5c12e7a1a01e",
+            "details": {
+                "title": "The Great Gatsby",
+                "author": "F. Scott Fitzgerald",
+                "publishedYear": 1925,
+                "genres": ["Classic", "Fiction"],
+                "summary": "A story about the American dream and the disillusionment of the Jazz Age."
+            }
+        },
+        {
+            "id": "b27e3087-43ee-4b0a-910b-bc1da3a1c74e",
+            "details": {
+                "title": "1984",
+                "author": "George Orwell",
+                "publishedYear": 1949,
+                "genres": ["Dystopian", "Political Fiction"],
+                "summary": "A dystopian novel set in a totalitarian regime under constant surveillance."
+            }
+        },
+        {
+            "id": "ca5e0534-ef52-4741-b3c8-e30bc3b7c1b5",
+            "details": {
+                "title": "To Kill a Mockingbird",
+                "author": "Harper Lee",
+                "publishedYear": 1960,
+                "genres": ["Classic", "Drama"],
+                "summary": "A novel about the serious issues of race and class in the Deep South."
+            }
+        },
+        {
+            "id": "abef9c57-8e65-43f7-bd69-e5e8f74a3aef",
+            "details": {
+                "title": "Brave New World",
+                "author": "Aldous Huxley",
+                "publishedYear": 1932,
+                "genres": ["Dystopian", "Science Fiction"],
+                "summary": "A novel that presents a future society driven by technological advancements and social stability."
+            }
+        },
+        {
+            "id": "8ef2a6b5-c79c-4c3f-b14d-5c7f759dbade",
+            "details": {
+                "title": "Moby Dick",
+                "author": "Herman Melville",
+                "publishedYear": 1851,
+                "genres": ["Adventure", "Classic"],
+                "summary": "A tale of obsession and revenge as Captain Ahab hunts the elusive white whale, Moby Dick."
+            }
+        }
+    ]
+}
