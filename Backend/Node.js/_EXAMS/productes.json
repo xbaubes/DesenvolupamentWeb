@@ -1,0 +1,133 @@
+[
+    {
+        "id": 1,
+        "nom": "Portàtil",
+        "marca": "Dell",
+        "categoria": "Electrònica",
+        "preu": 850,
+        "disponible": true,
+        "caracteristiques": {
+            "memoria": "16GB",
+            "disc_dur": "512GB SSD",
+            "processador": "Intel i7"
+        }
+    },
+    {
+        "id": 2,
+        "nom": "Telèfon intel·ligent",
+        "marca": "Samsung",
+        "categoria": "Electrònica",
+        "preu": 500,
+        "disponible": false,
+        "caracteristiques": {
+            "pantalla": "6.4 polzades",
+            "càmera": "48MP",
+            "bateria": "4000mAh"
+        }
+    },
+    {
+        "id": 3,
+        "nom": "Samarreta",
+        "marca": "Nike",
+        "categoria": "Roba",
+        "preu": 30,
+        "disponible": true,
+        "caracteristiques": {
+            "material": "Cotó",
+            "talla": "M",
+            "color": "Blanc"
+        }
+    },
+    {
+        "id": 4,
+        "nom": "Sabatilles",
+        "marca": "Adidas",
+        "categoria": "Roba",
+        "preu": 60,
+        "disponible": true,
+        "caracteristiques": {
+            "material": "Sintètic",
+            "talla": "42",
+            "color": "Negre"
+        }
+    },
+    {
+        "id": 5,
+        "nom": "Televisor",
+        "marca": "Sony",
+        "categoria": "Electrònica",
+        "preu": 1200,
+        "disponible": true,
+        "caracteristiques": {
+            "resolucio": "4K",
+            "mida": "55 polzades",
+            "tipus": "OLED"
+        }
+    },
+    {
+        "id": 6,
+        "nom": "Auriculars sense fil",
+        "marca": "Bose",
+        "categoria": "Electrònica",
+        "preu": 250,
+        "disponible": true,
+        "caracteristiques": {
+            "cancelacio_de_soroll": true,
+            "autonomia": "20 hores",
+            "color": "Negre"
+        }
+    },
+    {
+        "id": 7,
+        "nom": "Motxilla",
+        "marca": "The North Face",
+        "categoria": "Accessoris",
+        "preu": 75,
+        "disponible": true,
+        "caracteristiques": {
+            "capacitat": "30L",
+            "impermeable": true,
+            "color": "Verd"
+        }
+    },
+    {
+        "id": 8,
+        "nom": "Tablet",
+        "marca": "Apple",
+        "categoria": "Electrònica",
+        "preu": 600,
+        "disponible": false,
+        "caracteristiques": {
+            "pantalla": "10.2 polzades",
+            "memoria": "64GB",
+            "color": "Plata"
+        }
+    },
+    {
+        "id": 9,
+        "nom": "Rellotge intel·ligent",
+        "marca": "Garmin",
+        "categoria": "Electrònica",
+        "preu": 200,
+        "disponible": true,
+        "caracteristiques": {
+            "GPS": true,
+            "autonomia": "7 dies",
+            "resistent_a_l_aigua": true
+        }
+    },
+    {
+        "id": 10,
+        "nom": "Jaqueta d'hivern",
+        "marca": "Columbia",
+        "categoria": "Roba",
+        "preu": 120,
+        "disponible": true,
+        "caracteristiques": {
+            "material": "Nylon",
+            "impermeable": true,
+            "talla": "L",
+            "color": "Blau"
+        }
+    }
+]
