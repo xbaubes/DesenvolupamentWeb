@@ -54,6 +54,8 @@ En aquesta pàgina web hi trobaràs enllaçat el material de la part client (o f
   - **Desenvolupament d'Aplicacions Web** (CFGS DAW)  
      - MP4. Llenguatges de marques i sistemes de gestió d'informació [*Frontend*](#frontend)
      - MP6. Desenvolupament web en entorn client [*Frontend*](#frontend)
+     - MP7. Desenvolupament web en entorn servidor [*Backend*](#backend)
+     - MP9. Disseny d'interfícies web [*Frontend*](#frontend)
   - **Desenvolupament d'Aplicacions Multiplataforma** (CFGS DAM)  
      - MP4. Llenguatges de marques i sistemes de gestió d'informació [*Frontend*](#frontend)
      - MP7. Desenvolupament d'interfícies [*Frontend*](#frontend)
