@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+body#main {
+    background: url('../img/DALLE-Volcano.webp') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    padding: 19px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 19px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+input, select, button {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #d9534f;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background: #c9302c;
+}
+
+.container::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url('../img/DALLE-Volcano-mini.png') no-repeat center center;
+    background-size: cover;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    margin: 5px 0;
+}
+.radio-group label {
+    margin-left: 2px;
+}
+
+table { width: 80%; margin: 20px auto; border-collapse: collapse; }
+th, td { border: 1px solid #ccc; padding: 10px; }
+th { background-color: #f4f4f4; }
+
+a {
+    display: block; margin-top: 20px;
+}

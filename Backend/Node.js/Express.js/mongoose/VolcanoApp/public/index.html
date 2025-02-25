@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volcans</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/DALLE-Volcano-mini.png">
+</head>
+<body id="main">
+    <div class="container">
+        <h2>Registre de Volcans</h2>
+        <form id="volcanoForm" action="/volcans" method="POST">
+            <label for="name">Nom del Volcà:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="country">País:</label>
+            <input type="text" id="country" name="country" required>
+            
+            <label for="altitude">Altitud (m):</label>
+            <input type="number" id="altitude" name="altitude" min="1" required>
+            
+            <label>Actiu?</label>
+            <div class="radio-group">
+                <input type="radio" id="active-yes" name="active" value="Si" required>
+                <label for="active-yes">Sí</label>
+                <input type="radio" id="active-no" name="active" value="No" required>
+                <label for="active-no">No</label>
+            </div>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <a href="/llistar">Llistar Volcans</a>
+    </div>
+</body>
+</html>
